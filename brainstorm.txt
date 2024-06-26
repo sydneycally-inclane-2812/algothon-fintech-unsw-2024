@@ -5,7 +5,7 @@ evaluate each stock, parameterize all these:
     peaks and troughs? how often? how likely is it going to change direction soon
     sensitivity?
     previous position?
-    how likely to go big? to what extent?1201
+    how likely to go big? to what extent?
 -> rank which one is most likely to drop/climb soon
 
 get information on peaks and troughs
