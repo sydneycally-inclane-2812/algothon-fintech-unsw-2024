@@ -12,13 +12,16 @@ get information on peaks and troughs
     smoothing + derivative
     multiple smoothing levels for better perspective on the data?
 
+
+
 weighted distribution of the funds:
     to safe stocks, sure that they'll go up/down
     high volatility stocks
 
 common strategies: https://www.youtube.com/watch?v=ZX-Tp4zgJYc
 technical analysis: https://www.youtube.com/watch?v=eynxyoKgpng
-
+multivariate time series forecasting: https://towardsdatascience.com/multivariate-timeseries-forecast-with-lead-and-lag-timesteps-using-lstm-1a34915f08a
+^ this is AI though
 
 Notable pairs: 37 and 36
 
