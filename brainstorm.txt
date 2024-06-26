@@ -1,0 +1,28 @@
+the algorithm may be:
+look at data from beginning -> that point
+evaluate each stock, parameterize all these:
+    volatility?
+    peaks and troughs? how often? how likely is it going to change direction soon
+    sensitivity?
+    previous position?
+    how likely to go big? to what extent?1201
+-> rank which one is most likely to drop/climb soon
+
+get information on peaks and troughs
+    smoothing + derivative
+    multiple smoothing levels for better perspective on the data?
+
+weighted distribution of the funds:
+    to safe stocks, sure that they'll go up/down
+    high volatility stocks
+
+common strategies: https://www.youtube.com/watch?v=ZX-Tp4zgJYc
+technical analysis: https://www.youtube.com/watch?v=eynxyoKgpng
+
+
+Notable pairs: 37 and 36
+
+Check moving averages, rsi, macd, bollinger bands, atr
+Check Autoregressive models, ARIMA
+
+check dcc-garch: for predicting volatility
