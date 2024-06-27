@@ -23,9 +23,20 @@ technical analysis: https://www.youtube.com/watch?v=eynxyoKgpng
 multivariate time series forecasting: https://towardsdatascience.com/multivariate-timeseries-forecast-with-lead-and-lag-timesteps-using-lstm-1a34915f08a
 ^ this is AI though
 
+stationarity in tsa: https://archive.is/BN1Br
+arima https://towardsdatascience.com/what-is-an-arima-model-9e200f06f9eb
+- creates linear equation for the data
+- AR: auto regression
+- I: integration for the overtrend in the data
+- MA: moving averages
+
+
+
 Notable pairs: 37 and 36
 
-Check moving averages, rsi, macd, bollinger bands, atr
-Check Autoregressive models, ARIMA
+check moving averages, rsi, macd, bollinger bands, atr
+check Autoregressive models, ARIMA
 
 check dcc-garch: for predicting volatility
+
+Augmented Dickey-Fuller (ADF) test 
