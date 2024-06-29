@@ -39,4 +39,11 @@ check Autoregressive models, ARIMA
 
 check dcc-garch: for predicting volatility
 
-Augmented Dickey-Fuller (ADF) test 
+Augmented Dickey-Fuller (ADF) tests
+
+Probability that the stock will go up/down
+Predicted value of the stock
+
+
+LSTM
+Time Series prediction models, pros and cons etc. 
