@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from teamName import getMyPosition as getPosition
+from simple_strat import getMyPosition as getPosition
 
 nInst = 0 # Number of stocks/instruments
 nt = 0 # Number of trading periods/days
@@ -20,7 +20,7 @@ def loadPrices(fn):
     return (df.values).T
 
 
-pricesFile = "./prices.txt" # Specify the file name here
+pricesFile = "data/prices.txt" # Specify the file name here
 prcAll = loadPrices(pricesFile) # Load the prices
 print("Loaded %d instruments for %d days" % (nInst, nt))
 
