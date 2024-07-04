@@ -106,7 +106,11 @@ def getPosition(price_so_far):
             train = data_with_date[['ds', i]].copy()
             train.columns = ['ds', 'y']
             model = Prophet(
-
+                seasonality_mode='multiplicative',
+                changepoint_prior_scale=0.01,
+                seasonality_prior_scale=7,
+                n_changepoints=120,
+                changepoint_range=1,
             )
             model.add_seasonality(name='monthly', period=250, fourier_order=100, prior_scale=10)
             model.add_seasonality(name='weekly', period=100, fourier_order=100, prior_scale=10)
