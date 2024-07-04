@@ -20,7 +20,7 @@ def loadPrices(fn):
     return (df.values).T
 
 
-pricesFile = "data/prices.txt" # Specify the file name here
+pricesFile = "data/prices_500.txt" # Specify the file name here
 prcAll = loadPrices(pricesFile) # Load the prices
 print("Loaded %d instruments for %d days" % (nInst, nt))
 
