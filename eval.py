@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from simple_strat import getMyPosition as getPosition
+from prophet_strat import getMyPosition as getPosition
 
 nInst = 0 # Number of stocks/instruments
 nt = 0 # Number of trading periods/days
@@ -20,7 +20,7 @@ def loadPrices(fn):
     return (df.values).T
 
 
-pricesFile = "data/prices_500.txt" # Specify the file name here
+pricesFile = "data/prices_750.txt" # Specify the file name here
 prcAll = loadPrices(pricesFile) # Load the prices
 print("Loaded %d instruments for %d days" % (nInst, nt))
 
@@ -49,7 +49,7 @@ def calcPL(prcHist):
     value = 0 # Current portfolio value
     todayPLL = [] # P&L for each day, values TODO find out what values are stored here
     (_, nt) = prcHist.shape # Get the number of trading days
-    for t in range(250, 501): 
+    for t in range(501, 749): 
         # Iterate over the trading days from 250 to 500
         prcHistSoFar = prcHist[:, :t] # Get the price history until day t
         global newPosOrig # New position to take
