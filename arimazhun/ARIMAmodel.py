@@ -8,7 +8,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from pmdarima import auto_arima
 
 # Load the data
-file_path = 'prices.txt'
+file_path = 'data/prices.txt'
 data = pd.read_csv(file_path, sep=r"\s+", header=None)
 
 # Visualize the Data
