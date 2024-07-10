@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from prophet_strat import getMyPosition as getPosition
+from prophet_strat_optimization_test import get_my_position as getPosition
 
 nInst = 0 # Number of stocks/instruments
 nt = 0 # Number of trading periods/days

@@ -61,7 +61,8 @@ def make_portfolio(prcSoFar):
         mu = get_predictions(df_prcHistSoFar)
         S = risk_models.exp_cov(df_prcHistSoFar)
         ef = EfficientFrontier(mu, S, weight_bounds=(-0.02, 0.02))
-        weights = ef.max_sharpe()
+        # weights = ef.max_sharpe()
+        weights = ef.efficient_return(0.001)
         latest_prices = df_prcHistSoFar.iloc[-1]  
         da = DiscreteAllocation(weights, latest_prices, total_portfolio_value=10000*50)
         alloc, leftover = da.greedy_portfolio()
